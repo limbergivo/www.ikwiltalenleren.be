@@ -1,3 +1,4 @@
+@import "./vendor/bootstrap/bootstrap";
 
 /* Project specific */
 
@@ -21,25 +22,59 @@ $footer-text-color-primary: #D0021B;
 
 /* Modules*/
 // Nav
-.main-navigation{
-  background-color: $nav-bg-color-primary;
+.navigation{
+  padding: 80px 30px 0 30px;
 
-  .nav-link{
-    color: $nav-text-color-primary;
+  .main-navigation{
+    background: rgb(162,0,0);
+    background: linear-gradient(90deg, rgb(190, 0, 0) 0%, rgba(208,2,13,1) 51%, rgb(190, 0, 0) 100%);
+    border-radius: 5px;
+    border: solid 3px #e4848c;
+    -webkit-box-shadow: -5px 9px 19px -8px rgba(0,0,0,0.6);
+    -moz-box-shadow: -5px 9px 19px -8px rgba(0,0,0,0.6);
+    box-shadow: -5px 9px 19px -8px rgba(0,0,0,0.6);
+
+    .nav .nav-pills{
+
+    }
+
+    .nav-link{
+      font-family: "Cormorant", sans-serif;
+      font-size: 24px;
+      color: $nav-text-color-primary;
+      padding: 0.8rem 1.5rem 0.5rem 1.5rem;
+      font-weight: 600;
+
+    }
   }
 }
+
 
 .main-content{
   flex-grow: 1;
   display: flex;
   align-items: center;
   justify-content: center;
+
+
+  figure  {
+    @extend .col-md-8;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+  }
+
   img{
-    max-width: 500px;
+    width: 30%;
   }
 }
 
 .informative{
+  font-family: "Cormorant", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
   color:$footer-text-color-primary;
   display: flex;
   justify-content: space-around;
