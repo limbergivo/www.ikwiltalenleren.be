@@ -1,2 +1,46 @@
-@import "./components/variables.scss";
-@import "./landingpage/landingpage";
+
+/* Project specific */
+
+/* Components*/
+// main colors
+$mainBG: #EFDED6;
+// Nav-bar Colors
+$nav-bg-color-primary: #D0021B;
+$nav-text-color-primary: #000;
+
+$footer-text-color-primary: #D0021B;
+
+/* Partials */
+.full-screen{
+  background-color: $mainBG;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Modules*/
+// Nav
+.main-navigation{
+  background-color: $nav-bg-color-primary;
+
+  .nav-link{
+    color: $nav-text-color-primary;
+  }
+}
+
+.main-content{
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img{
+    max-width: 500px;
+  }
+}
+
+.informative{
+  color:$footer-text-color-primary;
+  display: flex;
+  justify-content: space-around;
+}
