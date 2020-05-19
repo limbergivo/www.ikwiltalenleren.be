@@ -11,11 +11,14 @@ $nav-text-color-primary: #000;
 
 $footer-text-color-primary: #D0021B;
 
-/* Partials */
-.full-screen{
+body{
   background-color: $mainBG;
   display: flex;
   flex-direction: column;
+}
+
+/* Partials */
+.full-screen{
   height: 100vh;
   width: 100vw;
 }
