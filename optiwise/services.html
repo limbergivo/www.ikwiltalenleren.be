@@ -3,8 +3,10 @@
 
 <head>
     <!--Let browser know website is optimized for mobile-->
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title></title>
 
@@ -13,40 +15,41 @@
     <link type="text/css" rel="stylesheet" href="../css/style.css" media="screen,projection" />
 </head>
 
-<body class="full-screen">
-    <div class="navigation">
-        <nav class="main-navigation">
+<body>
+    <div class="navigation primary">
+        <nav class="main-navigation primary">
             <ul class="nav nav-pills nav-fill">
+                <li class="nav-item">
+                    <a class="nav-link" href="/optiwise/home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/optiwise/about.html">Over OptiWise</a>
+                </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/optiwise/services.html">Aanbod <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Over OptiWise</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Aanbod</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="/optiwise/contact.html">Contact</a>
                 </li>
             </ul>
         </nav>
     </div>
 
 
-    <div class="container-fluid mid-page-container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-sm-9 col-lg-3 text-center">
-                <p class="text-left" style="font-size: 50px;"> OptiWise geeft onderwijs <span style="color: #D0021B">op
-                        <br>
-                        maat van de
-                        leerling. </span></p>
-                <div>
-                    <img src="../images/studentbook.jpg" alt="placeholderimage" height="100%" width="80%" />
+            <div class="col-12">
+                <p class="text-left" style="font-size: 50px;"> OptiWise geeft onderwijs <span style="color: #D0021B">op maat van de leerling. </span></p>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="row">
+                    <div class="col-10 offset-1">
+                        <img src="/images/imageedit_2_2682027866.jpg" alt="placeholderimage" class="img-fluid" />
+                    </div>
                 </div>
             </div>
 
-            <div class=" col-12 col-sm-3 col-lg-3 offset-lg-6">
+            <div class="col-12 col-md-6">
                 <div class="card  textoutline" style="background-color: #ECC3C7">
                     <div class="card-body" style="font-size: 20pt; border: 1px solid #D0021B">
                         <h5 class="card-title" style="font-size: 30pt;"> Aan wie ?</h5>
@@ -79,29 +82,31 @@
 
                     </div>
                 </div>
-
-
             </div>
-
-
-
-
-
-            <!-- 
-        <div class="row">
-            <div class="col-12 text-center">
-                <img class="img-fluid.max-width img-banner" src="../images/teachbanner.png" alt="placeholderimage" />
-
+            <div class="col-12 text-center cropped large-space">
+                <img class="img-fluid.max-width img-banner img-fluid" src="/images/imageedit_44_2857912006.jpg" alt="placeholderimage" />
             </div>
-        </div> -->
-
-
         </div>
-
-
-
     </div>
+
     <!-- footer -->
+    <div class="main-footer primary">
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+                <span>
+                    <!--@TODO: Juiste facebook link plaatsen-->
+                    <a href="#"><i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i></a>
+                </span>
+            </li>
+            <li class="nav-item">
+                <p class="mt-1 mb-0">Copyright L’Ecole d’Elise</p>
+            </li>
+            <li class="nav-item">
+                <!--@TODO: Juiste Instagram link plaatsen-->
+                <a href="#"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </div>
 
 
     <!--JavaScript at end of body for optimized loading-->
