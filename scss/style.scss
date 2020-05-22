@@ -37,9 +37,7 @@ body{
     -moz-box-shadow: -5px 9px 19px -8px rgba(0,0,0,0.6);
     box-shadow: -5px 9px 19px -8px rgba(0,0,0,0.6);
 
-    .nav .nav-pills{
 
-    }
 
     .nav-link{
       font-family: "Cormorant", sans-serif;
@@ -82,3 +80,58 @@ body{
   display: flex;
   justify-content: space-around;
 }
+
+
+
+// Over aanbod
+.mid-page-container{
+  font-family: "Cormorant", sans-serif;
+padding-top: 50px;
+height: 100vh;
+width: 97vw;
+flex-grow: 0;
+}
+
+.textoutline{
+  background-color:#ECC3C7 ;
+  height:100%;
+}
+
+.titel-text{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+//Over optiwise
+.row-container{
+flex: 1;
+padding:30px 20px 0px 20px; 
+}
+
+
+.text-information{
+  font-size: 35px;
+  background-color: #ECC3C7; ;
+}
+
+// ervaring
+
+.ervaring-title{
+  background-color: #D0021B;
+  border: 5px solid #E4848C;
+   border-radius: 4px;
+}
+
+
+.ervaring-textbox{
+padding: 0px 20px 0px 20px;
+font-size: 32px;
+}
+
+.ervaring-textboxsecond{
+padding: 10px;
+background-color: #ECC3C7;
+padding-bottom: 150px;
+}
+
+
