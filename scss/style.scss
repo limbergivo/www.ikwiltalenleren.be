@@ -214,3 +214,54 @@ padding:30px 20px 0px 20px;
   object-position: 0px -525px;
   //width: 100%;
 }
+
+@media (min-width: 768px) {
+  .imageholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+}
+
+.textbox{
+  border-radius: 15px;
+  background-color: #E7CABB;
+}
+
+.special-table{
+  border-spacing: 10px;
+  border-collapse: separate;
+  margin-left: auto;
+
+  @media (min-width: 768px) {
+    width: 75%;
+  }
+
+  img{
+    width: 70%;
+  }
+
+  .textbox{
+    border-radius: 0;
+  }
+
+  tbody tr td:first-child {
+    width: 200px;
+    min-width: 8em;
+    max-width: 8em;
+    word-break: break-all;
+  }
+
+  td{
+    padding: 7.5px 10px;
+    &.complimentary{
+      background-color: #FF4836;
+      color:#fff;
+    }
+    &.tertiary{
+      background-color: #7CA458;
+      color:#fff;
+    }
+  }
+}
