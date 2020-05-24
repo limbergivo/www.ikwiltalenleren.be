@@ -285,9 +285,10 @@ padding:30px 20px 0px 20px;
 }
 
 .title{
-
   border-radius: 4px;
-
+h2{
+margin-bottom: 0;
+}
   &.primary{
     background-color: #D0021B;
     border: 5px solid #E4848C;
