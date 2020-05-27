@@ -55,11 +55,39 @@
     <img src="/images/Homepage%20afbeelding.png" alt="Main logo" class="img-fluid">
   </div>
 
+  <div class="fb-customerchat" attribution=install_email page_id="109558474108999" theme_color="#fa3c4c"
+    logged_in_greeting="Hallo! Wat kunnen we voor u doen?" logged_out_greeting="Hallo! Wat kunnen we voor u doen?">
+  </div>
 
   <!--JavaScript at end of body for optimized loading-->
   <script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+
+
   </script>
   <script type="text/javascript" src="../js/bootstrap.bundle.js"></script>
+
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: 'v7.0'
+      });
+    };
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/nl_NL/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Your Chat Plugin code -->
+  <div class="fb-customerchat" attribution=install_email page_id="109558474108999" theme_color="#fa3c4c"
+    logged_in_greeting="Hallo! Wat kunnen we voor u doen?" logged_out_greeting="Hallo! Wat kunnen we voor u doen?">
+  </div>
 </body>
 
 </html>
